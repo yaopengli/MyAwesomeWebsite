@@ -1,0 +1,82 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #CCCCCC;
+	width: 100%;
+	padding: 10px;
+}
+
+main.row {
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+main .main-content {
+	padding-left: 0px;
+}
+
+main .side-bar {
+	padding-right: 0px;
+}
+
+main .main-content > div,
+main .side-bar > div{
+	background-color: white;
+	border-radius: 4px;
+	padding-left: 25px;
+	padding-right: 25px;
+	/*margin-top: 20px;*/
+	height: 100%;
+}
+
+main .main-content #topFivePostsDiv,
+main .side-bar #sideBarDiv{
+	padding-bottom: 40px;
+}
+
+.content-title, .of-week-title{
+	color: #4191FF;
+	font-weight: bold;
+	padding-top: 2px;
+}
+
+main .main-content #topFivePostsDiv .row a{
+	color: #4191FF;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+main .main-content #topFivePostsDiv .row .post {
+	font-size: 18px;
+}
+
+#sideBarDiv {
+	padding-left:30px;
+}
+
+#sideBarDiv .of-week-title{
+	color: #4191FF;
+	font-weight: bold;
+}
+
+main .side-bar .of-week-button button{
+	background-color: #4191FF;
+	color: white;
+	font-weight: bold;
+	border-radius: 0px;
+	margin-top: 30px;
+}
+
+main .side-bar blockquote {
+	border-left: 4px solid #1D304B;
+	font-size: 26px;
+	padding-left: 15px;   
+	margin-top: 40px; 
+	margin-bottom: 0px;
+}  
+
+main .side-bar blockquote h6 {
+	font-style: italic;
+	font-size: 15px;
+}
