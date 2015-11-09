@@ -1,0 +1,40 @@
+
+header {
+	height: 20%;
+	background-color: black;
+}
+
+#topHeading {
+	height: 170px;
+	background-color: #4191FF;
+	color: white;
+	text-align: center;
+}
+
+#topHeading h1{
+	margin: 0px;
+	padding-top: 80px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+header .navbar {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+header nav .menu-tab {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+header nav .menu-tab a{
+	border-radius: 8px;
+	margin: 5px;
+}
+
+header nav .menu-tab a:hover{
+	background-color: black;
+	color: red;
+}
