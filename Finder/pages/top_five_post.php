@@ -26,7 +26,19 @@
 			
 			// Display thumbnil on the left side
 			$html .= '<div class="col-xs-3 pull-left">';
-			$html .= '<img src="' . $post["thumbnail"] . '" class="img-thumbnail " alt="' . $post["title"] . '" width="150px" height="150px">';
+			
+			// Add link to thumbnail
+			$html .= '<a href="' . $post["url"] . '">';
+			
+			// Display default thumbnail if there is no thumbnail link in the data file
+			if ($post["thumbnail"]){
+				$html .= '<img src="' . $post["thumbnail"] . '" class="img-thumbnail " alt="' . $post["title"] . '" width="150px" height="150px">';
+			} else {
+				$html .= '<img src="images/thumbnail.png" class="img-thumbnail " alt="' . $post["title"] . '" width="150px" height="150px">';
+			}
+			
+			$html .= '</a>';
+			
 			$html .= '</div>';
 			
 			// Display post content (title and description)
